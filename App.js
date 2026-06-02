@@ -35,14 +35,14 @@ function ContentsStack() {
 
 function TabIcon({ label, focused }) {
   const icons = {
-    Gospel: focused ? '✦' : '◇',
+    Legend: focused ? '✦' : '◇',
     Search: focused ? '⊕' : '⊙',
     Bookmarks: focused ? '✦' : '◆',
   };
   return (
     <View style={{ alignItems: 'center' }}>
       <Text style={{
-        fontSize: label === 'Gospel' ? 16 : 14,
+        fontSize: label === 'Legend' ? 16 : 14,
         color: focused ? COLORS.gold : COLORS.textMuted,
         marginBottom: 2,
       }}>
@@ -113,10 +113,10 @@ export default function App() {
             }}
           >
             <Tab.Screen
-              name="GospelTab"
+              name="LegendTab"
               component={ContentsStack}
               options={{
-                tabBarIcon: ({ focused }) => <TabIcon label="Gospel" focused={focused} />,
+                tabBarIcon: ({ focused }) => <TabIcon label="Legend" focused={focused} />,
               }}
             />
             <Tab.Screen
