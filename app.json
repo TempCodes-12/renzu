@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "The Legends of Ren Zu",
+    "slug": "legends-of-ren-zu",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "automatic",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1a0a00"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.renzugospel.app"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#1a0a00"
+      },
+      "package": "com.renzugospel.app",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-font",
+        {
+          "fonts": []
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "fde8bb4f-1d8e-41ec-be99-d7d8b1ec61d9"
+      }
+    }
+  }
+}
