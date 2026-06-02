@@ -58,4 +58,3 @@ src/
     BookmarksScreen.js    ← Saved verses
     SearchScreen.js       ← Full-text search
 ```
-"# renzu" 
