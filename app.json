@@ -4,21 +4,34 @@
     "slug": "the-legend-of-ren-zu",
     "version": "1.0.0",
     "orientation": "portrait",
+    "icon": "./assets/icon.png",
     "userInterfaceStyle": "dark",
-    "splash": {
-      "resizeMode": "contain",
-      "backgroundColor": "#1a0a00"
-    },
     "ios": {
       "supportsTablet": true,
       "bundleIdentifier": "com.renzugospel.app"
     },
     "android": {
       "adaptiveIcon": {
-        "backgroundColor": "#1a0a00"
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#101010"
       },
       "package": "com.renzugospel.app",
       "versionCode": 1
+    },
+    "plugins": [
+      [
+        "expo-splash-screen",
+        {
+          "backgroundColor": "#000000",
+          "image": "./assets/splash-icon.png",
+          "imageWidth": 800
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "56afa295-9143-49d5-805f-6c1e6320e9d8"
+      }
     }
   }
 }
